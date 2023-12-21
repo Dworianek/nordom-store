@@ -2,10 +2,10 @@ import "./App.css";
 
 import { useEffect } from "react";
 
-import Navbar from "./components.js/Navbar";
-import Page from "./components.js/Page";
-import Footer from "./components.js/Footer";
-import Header from "./components.js/Header";
+import Navbar from "./components/Navbar";
+import Page from "./components/Page";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 import { Container, Col, Row } from "react-bootstrap";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
