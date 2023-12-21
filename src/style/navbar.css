@@ -1,0 +1,20 @@
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    gap:20px;
+}
+
+.link {
+    text-decoration: none; /* Usunięcie podkreślenia domyślnego */
+    color: #000; /* Kolor tekstu linku */
+  }
+
+  .active {
+    border-bottom: 2px solid red;
+    text-decoration: none;
+  }
+  .inactive{
+    text-decoration: none;
+  }
