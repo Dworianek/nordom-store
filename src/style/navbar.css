@@ -1,20 +1,29 @@
 ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    list-style: none;
-    gap:20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li{
+  display: flex;
+  
+}
+.menuElement{
+  display: flex;
+  align-items: center;
+  padding: 10px; /* Dodaj odpowiedni padding według potrzeb */
+  text-decoration: none;
+  color: white; /* Dodaj kolor tekstu według potrzeb */
 }
 
-.link {
-    text-decoration: none; /* Usunięcie podkreślenia domyślnego */
-    color: #000; /* Kolor tekstu linku */
-  }
+.iconTextGap {
+  margin-left: 10px; /* Możesz dostosować wartość marginesu według potrzeb */
+}
 
-  .active {
-    border-bottom: 2px solid red;
-    text-decoration: none;
-  }
-  .inactive{
-    text-decoration: none;
+.active {
+    background-color: #232730;
+    flex-grow: 1;
+
+ }
+.inactive{
+
   }

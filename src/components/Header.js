@@ -5,7 +5,7 @@ import "../style/header.css";
 export default function Header() {
   return (
     <div className="header">
-      <h1>NORDOM STORE</h1>
+      <h3>NORDOM STORE</h3>
     </div>
   );
 }
